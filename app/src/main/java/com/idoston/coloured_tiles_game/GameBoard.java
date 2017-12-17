@@ -133,36 +133,32 @@ public class GameBoard extends AppCompatActivity {
         userSelectedSquares.clear();
 
         for (int i = 0; i < GameConstants.SQUARES; i++){
-            PaintSquares(game_halper.getRandomNumbers(GameConstants.TILES));
+//            if (coloredPositions.size() <= GameConstants.SQUARES ){
+                int random = game_halper.getRandomNumbers(GameConstants.TILES);
+                if (coloredPositions.contains(random) == false){
+                    PaintSquares(random);
+                }
+           // }
         }
-        if (coloredPositions.size() < 4){
-            PaintSquares(game_halper.getRandomNumbers(GameConstants.TILES));
+        if (coloredPositions.size() < GameConstants.SQUARES ){
+            int random = game_halper.getRandomNumbers(GameConstants.TILES);
+            if (coloredPositions.contains(random) == false){
+                PaintSquares(random);
+            }
         }
-//        int firstR = game_halper.getRandomNumbers(20);
-//        int secondR = game_halper.getRandomNumbers(20);
-//        int thirdR = game_halper.getRandomNumbers(20);
-//        int fourR = game_halper.getRandomNumbers(20);
-//
-//        if (firstR != secondR && firstR != thirdR && firstR != fourR){
-//            PaintSquares(firstR);
-//        } else {
-//            PaintSquares(game_halper.getRandomNumbers(20));
-//        }
-//        if (secondR != firstR && secondR != thirdR && secondR != fourR){
-//            PaintSquares(secondR);
-//        } else {
-//            PaintSquares(game_halper.getRandomNumbers(20));
-//        }
-//        if (thirdR != secondR && thirdR != firstR && thirdR != fourR){
-//            PaintSquares(thirdR);
-//        } else {
-//            PaintSquares(game_halper.getRandomNumbers(20));
-//        }
-//        if (fourR != secondR && fourR != thirdR && fourR != firstR){
-//            PaintSquares(fourR);
-//        } else {
-//            PaintSquares(game_halper.getRandomNumbers(20));
-//        }
+        if (coloredPositions.size() < GameConstants.SQUARES ){
+            int random2 = game_halper.getRandomNumbers(GameConstants.TILES);
+            if (coloredPositions.contains(random2) == false){
+                PaintSquares(random2);
+            }
+        }
+        if (coloredPositions.size() < GameConstants.SQUARES ){
+            int random3 = game_halper.getRandomNumbers(GameConstants.TILES);
+            if (coloredPositions.contains(random3) == false){
+                PaintSquares(random3);
+            }
+        }
+
 
     }
     public void IntialColors(){
@@ -613,74 +609,74 @@ public class GameBoard extends AppCompatActivity {
                     coloredPositions.add(20);
                     break;
                 default:
-                    //Toast.makeText(getApplicationContext(), "Error in switch", Toast.LENGTH_SHORT).show();
-                    if (coloredPositions.contains(14) == false){
-                        btn_14.setBackgroundColor(getResources().getColor(R.color.colour_tile));
-                        coloredPositions.add(14);
-                    } else if (coloredPositions.contains(15) == false){
-                        btn_15.setBackgroundColor(getResources().getColor(R.color.colour_tile));
-                        coloredPositions.add(15);
-                    } else if (coloredPositions.contains(16) == false){
-                        btn_16.setBackgroundColor(getResources().getColor(R.color.colour_tile));
-                        coloredPositions.add(16);
-                    } else if (coloredPositions.contains(17) == false){
-                        btn_17.setBackgroundColor(getResources().getColor(R.color.colour_tile));
-                        coloredPositions.add(17);
-                    } else if (coloredPositions.contains(18) == false){
-                        btn_18.setBackgroundColor(getResources().getColor(R.color.colour_tile));
-                        coloredPositions.add(18);
-                    } else if (coloredPositions.contains(19) == false){
-                        btn_19.setBackgroundColor(getResources().getColor(R.color.colour_tile));
-                        coloredPositions.add(19);
-                    } else if (coloredPositions.contains(20) == false){
-                        btn_20.setBackgroundColor(getResources().getColor(R.color.colour_tile));
-                        coloredPositions.add(20);
-                    } else if (coloredPositions.contains(15) == false){
-                        btn_15.setBackgroundColor(getResources().getColor(R.color.colour_tile));
-                        coloredPositions.add(1);
-                    } else if (coloredPositions.contains(1) == false){
-                        btn_1.setBackgroundColor(getResources().getColor(R.color.colour_tile));
-                        coloredPositions.add(1);
-                    } else if (coloredPositions.contains(2) == false){
-                        btn_2.setBackgroundColor(getResources().getColor(R.color.colour_tile));
-                        coloredPositions.add(2);
-                    } else if (coloredPositions.contains(3) == false){
-                        btn_3.setBackgroundColor(getResources().getColor(R.color.colour_tile));
-                        coloredPositions.add(3);
-                    } else if (coloredPositions.contains(4) == false){
-                        btn_4.setBackgroundColor(getResources().getColor(R.color.colour_tile));
-                        coloredPositions.add(4);
-                    } else if (coloredPositions.contains(5) == false){
-                        btn_5.setBackgroundColor(getResources().getColor(R.color.colour_tile));
-                        coloredPositions.add(5);
-                    } else if (coloredPositions.contains(6) == false){
-                        btn_6.setBackgroundColor(getResources().getColor(R.color.colour_tile));
-                        coloredPositions.add(6);
-                    } else if (coloredPositions.contains(7) == false){
-                        btn_7.setBackgroundColor(getResources().getColor(R.color.colour_tile));
-                        coloredPositions.add(7);
-                    } else if (coloredPositions.contains(8) == false){
-                        btn_8.setBackgroundColor(getResources().getColor(R.color.colour_tile));
-                        coloredPositions.add(8);
-                    } else if (coloredPositions.contains(9) == false){
-                        btn_9.setBackgroundColor(getResources().getColor(R.color.colour_tile));
-                        coloredPositions.add(9);
-                    } else if (coloredPositions.contains(10) == false){
-                        btn_10.setBackgroundColor(getResources().getColor(R.color.colour_tile));
-                        coloredPositions.add(10);
-                    } else if (coloredPositions.contains(11) == false){
-                        btn_11.setBackgroundColor(getResources().getColor(R.color.colour_tile));
-                        coloredPositions.add(11);
-                    } else if (coloredPositions.contains(11) == false){
-                        btn_11.setBackgroundColor(getResources().getColor(R.color.colour_tile));
-                        coloredPositions.add(11);
-                    } else if (coloredPositions.contains(12) == false){
-                        btn_12.setBackgroundColor(getResources().getColor(R.color.colour_tile));
-                        coloredPositions.add(12);
-                    } else if (coloredPositions.contains(13) == false){
-                        btn_13.setBackgroundColor(getResources().getColor(R.color.colour_tile));
-                        coloredPositions.add(13);
-                    }
+                    Toast.makeText(getApplicationContext(), "Error in switch", Toast.LENGTH_SHORT).show();
+//                    if (coloredPositions.contains(14) == false){
+//                        btn_14.setBackgroundColor(getResources().getColor(R.color.colour_tile));
+//                        coloredPositions.add(14);
+//                    } else if (coloredPositions.contains(15) == false){
+//                        btn_15.setBackgroundColor(getResources().getColor(R.color.colour_tile));
+//                        coloredPositions.add(15);
+//                    } else if (coloredPositions.contains(16) == false){
+//                        btn_16.setBackgroundColor(getResources().getColor(R.color.colour_tile));
+//                        coloredPositions.add(16);
+//                    } else if (coloredPositions.contains(17) == false){
+//                        btn_17.setBackgroundColor(getResources().getColor(R.color.colour_tile));
+//                        coloredPositions.add(17);
+//                    } else if (coloredPositions.contains(18) == false){
+//                        btn_18.setBackgroundColor(getResources().getColor(R.color.colour_tile));
+//                        coloredPositions.add(18);
+//                    } else if (coloredPositions.contains(19) == false){
+//                        btn_19.setBackgroundColor(getResources().getColor(R.color.colour_tile));
+//                        coloredPositions.add(19);
+//                    } else if (coloredPositions.contains(20) == false){
+//                        btn_20.setBackgroundColor(getResources().getColor(R.color.colour_tile));
+//                        coloredPositions.add(20);
+//                    } else if (coloredPositions.contains(15) == false){
+//                        btn_15.setBackgroundColor(getResources().getColor(R.color.colour_tile));
+//                        coloredPositions.add(1);
+//                    } else if (coloredPositions.contains(1) == false){
+//                        btn_1.setBackgroundColor(getResources().getColor(R.color.colour_tile));
+//                        coloredPositions.add(1);
+//                    } else if (coloredPositions.contains(2) == false){
+//                        btn_2.setBackgroundColor(getResources().getColor(R.color.colour_tile));
+//                        coloredPositions.add(2);
+//                    } else if (coloredPositions.contains(3) == false){
+//                        btn_3.setBackgroundColor(getResources().getColor(R.color.colour_tile));
+//                        coloredPositions.add(3);
+//                    } else if (coloredPositions.contains(4) == false){
+//                        btn_4.setBackgroundColor(getResources().getColor(R.color.colour_tile));
+//                        coloredPositions.add(4);
+//                    } else if (coloredPositions.contains(5) == false){
+//                        btn_5.setBackgroundColor(getResources().getColor(R.color.colour_tile));
+//                        coloredPositions.add(5);
+//                    } else if (coloredPositions.contains(6) == false){
+//                        btn_6.setBackgroundColor(getResources().getColor(R.color.colour_tile));
+//                        coloredPositions.add(6);
+//                    } else if (coloredPositions.contains(7) == false){
+//                        btn_7.setBackgroundColor(getResources().getColor(R.color.colour_tile));
+//                        coloredPositions.add(7);
+//                    } else if (coloredPositions.contains(8) == false){
+//                        btn_8.setBackgroundColor(getResources().getColor(R.color.colour_tile));
+//                        coloredPositions.add(8);
+//                    } else if (coloredPositions.contains(9) == false){
+//                        btn_9.setBackgroundColor(getResources().getColor(R.color.colour_tile));
+//                        coloredPositions.add(9);
+//                    } else if (coloredPositions.contains(10) == false){
+//                        btn_10.setBackgroundColor(getResources().getColor(R.color.colour_tile));
+//                        coloredPositions.add(10);
+//                    } else if (coloredPositions.contains(11) == false){
+//                        btn_11.setBackgroundColor(getResources().getColor(R.color.colour_tile));
+//                        coloredPositions.add(11);
+//                    } else if (coloredPositions.contains(11) == false){
+//                        btn_11.setBackgroundColor(getResources().getColor(R.color.colour_tile));
+//                        coloredPositions.add(11);
+//                    } else if (coloredPositions.contains(12) == false){
+//                        btn_12.setBackgroundColor(getResources().getColor(R.color.colour_tile));
+//                        coloredPositions.add(12);
+//                    } else if (coloredPositions.contains(13) == false){
+//                        btn_13.setBackgroundColor(getResources().getColor(R.color.colour_tile));
+//                        coloredPositions.add(13);
+//                    }
                     break;
             }
 
