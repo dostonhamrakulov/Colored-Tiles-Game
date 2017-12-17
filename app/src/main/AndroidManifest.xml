@@ -16,7 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".GameBoard"></activity>
+        <activity android:name=".GameBoard"
+            android:label="Game Board"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
     </application>
 
 </manifest>

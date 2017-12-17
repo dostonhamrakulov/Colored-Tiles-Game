@@ -5,11 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.idoston.coloured_tiles_game.MainActivity">
-
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/starter"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/idoston" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Let`s get started!"
+        android:id="@+id/starter"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:textSize="30dp"

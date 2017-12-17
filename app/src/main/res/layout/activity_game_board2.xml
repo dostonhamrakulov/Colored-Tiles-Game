@@ -10,12 +10,16 @@
         android:layout_height="wrap_content"
         android:text="Score is : "
         android:id="@+id/score"
+        android:textSize="25dp"
         android:textStyle="bold"
         android:gravity="center"/>
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/score"
+        android:paddingLeft="15dp"
+        android:id="@+id/table_layout"
+        android:paddingRight="15dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true">
 
@@ -28,25 +32,29 @@
                 android:id="@+id/btn_1"
                 android:layout_width="fill_parent"
                 android:layout_height="90dp"
-                android:text="Button" />
+                android:layout_marginLeft="5dp"
+                android:text="" />
 
             <Button
                 android:id="@+id/btn_2"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="Button" />
+                android:layout_marginLeft="5dp"
+                android:text="" />
 
             <Button
                 android:id="@+id/btn_3"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="Button" />
+                android:layout_marginLeft="5dp"
+                android:text="" />
 
             <Button
                 android:id="@+id/btn_4"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="Button" />
+                android:layout_marginLeft="5dp"
+                android:text="" />
         </TableRow>
 
         <TableRow
@@ -58,25 +66,30 @@
                 android:id="@+id/btn_5"
                 android:layout_width="fill_parent"
                 android:layout_height="90dp"
-                android:text="Button" />
+                android:layout_marginLeft="5dp"
+                android:text="" />
 
             <Button
                 android:id="@+id/btn_6"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="Button" />
+                android:layout_marginLeft="5dp"
+                android:text="" />
 
             <Button
                 android:id="@+id/btn_7"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="Button" />
+                android:layout_marginLeft="5dp"
+                android:text="" />
 
             <Button
                 android:id="@+id/btn_8"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="Button" />
+                android:layout_marginLeft="5dp"
+
+                android:text="" />
         </TableRow>
 
         <TableRow
@@ -88,25 +101,29 @@
                 android:id="@+id/btn_9"
                 android:layout_width="fill_parent"
                 android:layout_height="90dp"
-                android:text="Button" />
+                android:layout_marginLeft="5dp"
+                android:text="" />
 
             <Button
                 android:id="@+id/btn_10"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="Button" />
+                android:layout_marginLeft="5dp"
+                android:text="" />
 
             <Button
                 android:id="@+id/btn_11"
                 android:layout_width="fill_parent"
+                android:layout_marginLeft="5dp"
                 android:layout_height="fill_parent"
-                android:text="Button" />
+                android:text="" />
 
             <Button
                 android:id="@+id/btn_12"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="Button" />
+                android:layout_marginLeft="5dp"
+                android:text="" />
         </TableRow>
 
         <TableRow
@@ -118,25 +135,29 @@
                 android:id="@+id/btn_13"
                 android:layout_width="fill_parent"
                 android:layout_height="90dp"
-                android:text="Button" />
+                android:layout_marginLeft="5dp"
+                android:text="" />
 
             <Button
                 android:id="@+id/btn_14"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="Button" />
+                android:layout_marginLeft="5dp"
+                android:text="" />
 
             <Button
                 android:id="@+id/btn_15"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="Button" />
+                android:layout_marginLeft="5dp"
+                android:text="" />
 
             <Button
                 android:id="@+id/btn_16"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="Button" />
+                android:layout_marginLeft="5dp"
+                android:text="" />
         </TableRow>
         <TableRow
             android:layout_width="fill_parent"
@@ -147,26 +168,31 @@
                 android:id="@+id/btn_17"
                 android:layout_width="fill_parent"
                 android:layout_height="90dp"
-                android:text="Button" />
+                android:layout_marginLeft="5dp"
+                android:text="" />
 
             <Button
                 android:id="@+id/btn_18"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="Button" />
+                android:layout_marginLeft="5dp"
+                android:text="" />
 
             <Button
                 android:id="@+id/btn_19"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="Button" />
+                android:layout_marginLeft="5dp"
+                android:text="" />
 
             <Button
                 android:id="@+id/btn_20"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="Button" />
+                android:layout_marginLeft="5dp"
+                android:text="" />
         </TableRow>
+
         <!--<TableRow-->
             <!--android:layout_width="fill_parent"-->
             <!--android:padding="5dp"-->
@@ -197,5 +223,21 @@
                 <!--android:text="Button" />-->
         <!--</TableRow>-->
     </TableLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="13dp"
+        android:layout_below="@id/table_layout"
+        android:textStyle="bold"
+        android:text="Please, select 4 tiles"
+        android:textAlignment="center"/>
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:progressDrawable="@drawable/circular_progress_bar"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
 
 </RelativeLayout>
