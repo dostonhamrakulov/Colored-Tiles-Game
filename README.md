@@ -21,6 +21,7 @@ There are twenty colored tiles and initially they are the same. Then the program
 ## Author
 **Doston Hamrakulov**
 >*Riga Technical University, Riga, Latvia*
+>*Self-employement*
 
 ## Google Play Store:
 
@@ -28,14 +29,12 @@ There are twenty colored tiles and initially they are the same. Then the program
 
 ### Screens:
 
-<p align="center"><img width="50%" height="50%" src="https://github.com/dostonhamrakulov/Tic-Tac-Toe-Game-in-Android/blob/master/Images/image_1.jpg" /></p>
+<p align="center"><img width="50%" height="50%" src="https://github.com/dostonhamrakulov/Colored-Tiles-Game/blob/master/Images/images_1.png" /></p>
 
-<p align="center"><img width="50%" height="50%" src="https://github.com/dostonhamrakulov/Tic-Tac-Toe-Game-in-Android/blob/master/Images/image_2.jpg" /></p>
+<p align="center"><img width="50%" height="50%" src="https://github.com/dostonhamrakulov/Colored-Tiles-Game/blob/master/Images/images_2.png" /></p>
 
-<p align="center"><img width="50%" height="50%" src="https://github.com/dostonhamrakulov/Tic-Tac-Toe-Game-in-Android/blob/master/Images/image_3.jpg" /></p>
+<p align="center"><img width="50%" height="50%" src="https://github.com/dostonhamrakulov/Colored-Tiles-Game/blob/master/Images/images_3.png" /></p>
 
-<p align="center"><img width="50%" height="50%" src="https://github.com/dostonhamrakulov/Tic-Tac-Toe-Game-in-Android/blob/master/Images/image_4.jpg" /></p>
-
-<p align="center"><img width="50%" height="50%" src="https://github.com/dostonhamrakulov/Tic-Tac-Toe-Game-in-Android/blob/master/Images/image_5.jpg" /></p>
+<p align="center"><img width="50%" height="50%" src="https://github.com/dostonhamrakulov/Colored-Tiles-Game/blob/master/Images/images_4.png" /></p>
 
 ### Enjoy :)
