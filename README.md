@@ -32,10 +32,10 @@ There are twenty colored tiles and initially they are the same. Then the program
 
 <p align="center"><img width="50%" height="50%" src="https://github.com/dostonhamrakulov/Colored-Tiles-Game/blob/master/Images/images_1.png" /></p>
 
-<p align="center"><img width="50%" height="50%" src="https://github.com/dostonhamrakulov/Colored-Tiles-Game/blob/master/Images/images_2.png" /></p>
+<p align="center"><img width="50%" height="50%" src="https://github.com/dostonhamrakulov/Colored-Tiles-Game/blob/master/Images/images_2.PNG" /></p>
 
-<p align="center"><img width="50%" height="50%" src="https://github.com/dostonhamrakulov/Colored-Tiles-Game/blob/master/Images/images_3.png" /></p>
+<p align="center"><img width="50%" height="50%" src="https://github.com/dostonhamrakulov/Colored-Tiles-Game/blob/master/Images/images_3.PNG" /></p>
 
-<p align="center"><img width="50%" height="50%" src="https://github.com/dostonhamrakulov/Colored-Tiles-Game/blob/master/Images/images_4.png" /></p>
+<p align="center"><img width="50%" height="50%" src="https://github.com/dostonhamrakulov/Colored-Tiles-Game/blob/master/Images/images_4.PNG" /></p>
 
 ### Enjoy :)
