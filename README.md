@@ -24,7 +24,7 @@ There are twenty colored tiles and initially they are the same. Then the program
 
 ## Google Play Store:
 
-<a href="https://play.google.com/store/apps/details?id=com.idoston.tic_tac_toe_game">Tic-Tac-Toe Game</a>
+<a href="https://play.google.com/store/apps/details?id=com.idoston.coloured_tiles_game">Tic-Tac-Toe Game</a>
 
 ### Screens:
 
