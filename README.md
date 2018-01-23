@@ -21,11 +21,12 @@ There are twenty colored tiles and initially they are the same. Then the program
 ## Author
 **Doston Hamrakulov**
 >*Riga Technical University, Riga, Latvia*
+
 >*Self-employement*
 
 ## Google Play Store:
 
-<a href="https://play.google.com/store/apps/details?id=com.idoston.coloured_tiles_game">Tic-Tac-Toe Game</a>
+<a href="https://play.google.com/store/apps/details?id=com.idoston.coloured_tiles_game" target="_blank">Tic-Tac-Toe Game</a>
 
 ### Screens:
 
