@@ -1,13 +1,41 @@
-<<<<<<< HEAD
-# TicTacToe-Android
-Tic Tac Toe game for Android with Minimax Algorithm implemented for the AI which cannot lose.
+# Doston Hamrakulov**
 
-Open the app, and select your piece (X or O) and press start to begin.
-Open the menu and uncheck "Winnable" for the computer to use Minimax Algorithm and never lose.
-=======
-# Colored-Tiles-Game
+
+## Colored-Tiles-Game in Android
 
 This is Android Mobile Application which does pplay a game. 
 
 There are twenty colored tiles and initially they are the same. Then the program displays four colored tiles with different color. After three second the four colored tiles will get the same color as others. So, you need to remember the four colored tiles with different colors and select them. Then, program checks your answer and if they are correct, your mark will increase by one.
->>>>>>> 1b7463636808a1b4237bc4b82d620ed81b12d332
+
+
+## Programming language
+```[java]
+// Java
+```
+
+### IDE
+```[androidstudio]
+// AndroidStudio
+```
+
+## Author
+**Doston Hamrakulov**
+>*Riga Technical University, Riga, Latvia*
+
+## Google Play Store:
+
+<a href="https://play.google.com/store/apps/details?id=com.idoston.tic_tac_toe_game">Tic-Tac-Toe Game</a>
+
+### Screens:
+
+<p align="center"><img width="50%" height="50%" src="https://github.com/dostonhamrakulov/Tic-Tac-Toe-Game-in-Android/blob/master/Images/image_1.jpg" /></p>
+
+<p align="center"><img width="50%" height="50%" src="https://github.com/dostonhamrakulov/Tic-Tac-Toe-Game-in-Android/blob/master/Images/image_2.jpg" /></p>
+
+<p align="center"><img width="50%" height="50%" src="https://github.com/dostonhamrakulov/Tic-Tac-Toe-Game-in-Android/blob/master/Images/image_3.jpg" /></p>
+
+<p align="center"><img width="50%" height="50%" src="https://github.com/dostonhamrakulov/Tic-Tac-Toe-Game-in-Android/blob/master/Images/image_4.jpg" /></p>
+
+<p align="center"><img width="50%" height="50%" src="https://github.com/dostonhamrakulov/Tic-Tac-Toe-Game-in-Android/blob/master/Images/image_5.jpg" /></p>
+
+### Enjoy :)
