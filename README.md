@@ -21,8 +21,9 @@ There are twenty colored tiles and initially they are the same. Then the program
 ## Author
 **Doston Hamrakulov**
 >*Riga Technical University, Riga, Latvia*
+>*Technical University of Chemnitz, Chemnitz, Germany*
 
->*Self-employement*
+>*Self-employement, employement*
 
 ## Google Play Store:
 
