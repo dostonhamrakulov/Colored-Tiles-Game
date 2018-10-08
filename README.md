@@ -29,13 +29,13 @@ There are twenty colored tiles and initially they are the same. Then the program
 <a href="https://play.google.com/store/apps/details?id=com.idoston.coloured_tiles_game" target="_blank">Tic-Tac-Toe Game</a>
 
 ### Screens:
+<p align="center">
+	<img width="250px" height="350px" src="https://github.com/dostonhamrakulov/Colored-Tiles-Game/blob/master/Images/images_1.png" />
+	<img width="250px" height="350px" src="https://github.com/dostonhamrakulov/Colored-Tiles-Game/blob/master/Images/images_2.PNG" />
+	<img width="250px" height="350px" src="https://github.com/dostonhamrakulov/Colored-Tiles-Game/blob/master/Images/images_3.PNG" />
+</p>
 
-<p align="center"><img width="50%" height="50%" src="https://github.com/dostonhamrakulov/Colored-Tiles-Game/blob/master/Images/images_1.png" /></p>
 
-<p align="center"><img width="50%" height="50%" src="https://github.com/dostonhamrakulov/Colored-Tiles-Game/blob/master/Images/images_2.PNG" /></p>
-
-<p align="center"><img width="50%" height="50%" src="https://github.com/dostonhamrakulov/Colored-Tiles-Game/blob/master/Images/images_3.PNG" /></p>
-
-<p align="center"><img width="50%" height="50%" src="https://github.com/dostonhamrakulov/Colored-Tiles-Game/blob/master/Images/images_4.PNG" /></p>
+<p align="center"><img width="300px" height="400px" src="https://github.com/dostonhamrakulov/Colored-Tiles-Game/blob/master/Images/images_4.PNG" /></p>
 
 ### Enjoy :)
