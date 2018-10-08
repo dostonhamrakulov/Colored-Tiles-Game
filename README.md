@@ -19,9 +19,15 @@ There are twenty colored tiles and initially they are the same. Then the program
 ```
 
 ## Author
-**Doston Hamrakulov**
+```[Doston Hamrakulov]
+Doston Hamrakulov
+```
+
 >*Riga Technical University, Riga, Latvia*
+
 >*Technical University of Chemnitz, Chemnitz, Germany*
+
+>*Self-employement, employement*
 
 >*Self-employement, employement*
 
