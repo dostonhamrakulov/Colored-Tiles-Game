@@ -6,9 +6,9 @@ import java.util.Random;
  * Created by Doston on 12/16/2017.
  */
 
-public class Game_Halper {
+public class Game_Helper {
 
-    public Game_Halper() {
+    public Game_Helper() {
     }
 
     public int getRandomNumbers(int size){
